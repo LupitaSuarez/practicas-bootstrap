@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>Formularios 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Checkboxes y radios -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Checkbox y radios</h2>
+
+          <form action="">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="" />
+                Lorem ipsum dolor sit amet.
+              </label>
+            </div>
+
+            <div class="checkbox disabled">
+              <label>
+                <input type="checkbox" value="" disabled />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                numquam?
+              </label>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="sexo" value="" />
+                Hombre
+              </label>
+            </div>
+
+            <div class="radio disabled">
+              <label>
+                <input type="radio" name="sexo" value="" disabled />
+                Mujer
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Inline Checkboxes -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Inline Checkboxes y radios</h2>
+
+          <form action="">
+            <label class="checkbox-inline">
+              <input type="checkbox" value="" />
+              Lorem ipsum dolor sit amet.
+            </label>
+
+            <label class="checkbox-inline">
+              <input type="checkbox" value="" disabled />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              numquam?
+            </label>
+            <br />
+            <br />
+            <label class="radio-inline">
+              <input type="radio" name="sexo" value="" />
+              Hombre
+            </label>
+
+            <label class="radio-inline">
+              <input type="radio" name="sexo" value="" disabled />
+              Mujer
+            </label>
+          </form>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Select -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Select Input</h2>
+          <form action="">
+            <select class="form-control" name="pais" id="pais">
+              <option value="Malikafort">Malikafort</option>
+              <option value="Opheliaville">Opheliaville</option>
+              <option value="West Elbert">West Elbert</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Inputs -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Inpus</h2>
+          <form action="">
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="input"
+                readonly
+              />
+            </div>
+
+            <div class="form-group has-warning">
+              <input class="form-control" type="text" placeholder="input" />
+            </div>
+
+            <div class="form-group has-error">
+              <input class="form-control" type="text" placeholder="input" />
+            </div>
+
+            <div class="form-group has-success">
+              <input class="form-control" type="text" placeholder="input" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
